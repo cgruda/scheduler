@@ -1,0 +1,138 @@
+[main.c     , main          ,  33] DBG_INIT
+[tasks.c    , check_input   ,  63] input: DRR, 1_DRR_q2, 2
+[tasks.c    , open_files    , 101] open_files() done
+[scheduler.c, init_flow     , 407] 0: init_flow (8a0f20)
+[scheduler.c, rx            , 122] 0: rx_pkt 0 (8973a8->8a0f20)
+[scheduler.c, init_flow     , 407] 0: init_flow (89df80)
+[scheduler.c, rx            , 122] 0: rx_pkt 1 (8a0fb8->89df80)
+[scheduler.c, tx            , 292] 0: tx_pkt 1 (8a0fb8)
+[scheduler.c, init_flow     , 407] 1: init_flow (8a2088)
+[scheduler.c, rx            , 122] 1: rx_pkt 2 (8a2038->8a2088)
+[scheduler.c, rx            , 122] 2: rx_pkt 3 (8a2120->8a0f20)
+[scheduler.c, rx            , 122] 7: rx_pkt 4 (8a2170->89df80)
+[scheduler.c, rx            , 122] 12: rx_pkt 5 (89e590->89df80)
+[scheduler.c, rx            , 122] 13: rx_pkt 6 (89e770->8a0f20)
+[scheduler.c, rx            , 122] 13: rx_pkt 7 (89e6d0->8a2088)
+[scheduler.c, rx            , 122] 14: rx_pkt 8 (89e5e0->8a0f20)
+[scheduler.c, rx            , 122] 19: rx_pkt 9 (89e7c0->89df80)
+[scheduler.c, init_flow     , 407] 100: init_flow (8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 10 (89e270->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 11 (89e400->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 12 (89e0e0->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 13 (89e450->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 14 (89e040->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 15 (89e630->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 16 (89e2c0->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 17 (89e680->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 18 (89e090->8904d0)
+[scheduler.c, rx            , 122] 100: rx_pkt 19 (89e3b0->8904d0)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ec20)
+[scheduler.c, rx            , 122] 100: rx_pkt 20 (89e130->89ec20)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ecb8)
+[scheduler.c, rx            , 122] 100: rx_pkt 21 (89e180->89ecb8)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ed50)
+[scheduler.c, rx            , 122] 100: rx_pkt 22 (89e1d0->89ed50)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ede8)
+[scheduler.c, rx            , 122] 100: rx_pkt 23 (89e4f0->89ede8)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ee80)
+[scheduler.c, rx            , 122] 100: rx_pkt 24 (89e720->89ee80)
+[scheduler.c, init_flow     , 407] 100: init_flow (89ef18)
+[scheduler.c, rx            , 122] 100: rx_pkt 25 (89e220->89ef18)
+[scheduler.c, init_flow     , 407] 100: init_flow (8a50f0)
+[scheduler.c, rx            , 122] 100: rx_pkt 26 (89e310->8a50f0)
+[scheduler.c, init_flow     , 407] 100: init_flow (8a5188)
+[scheduler.c, rx            , 122] 100: rx_pkt 27 (89e360->8a5188)
+[scheduler.c, init_flow     , 407] 100: init_flow (8a5220)
+[scheduler.c, rx            , 122] 100: rx_pkt 28 (89e4a0->8a5220)
+[scheduler.c, init_flow     , 407] 100: init_flow (8a52b8)
+[scheduler.c, rx            , 122] 100: rx_pkt 29 (89e540->8a52b8)
+[scheduler.c, tx            , 292] 3658: tx_pkt 10 (89e270)
+[scheduler.c, tx            , 292] 3904: tx_pkt 0 (8973a8)
+[scheduler.c, tx            , 292] 7787: tx_pkt 26 (89e310)
+[scheduler.c, tx            , 292] 8722: tx_pkt 29 (89e540)
+[scheduler.c, tx            , 292] 11619: tx_pkt 11 (89e400)
+[scheduler.c, tx            , 292] 15995: tx_pkt 3 (8a2120)
+[scheduler.c, tx            , 292] 16871: tx_pkt 25 (89e220)
+[scheduler.c, tx            , 292] 19645: tx_pkt 23 (89e4f0)
+[scheduler.c, tx            , 292] 23085: tx_pkt 22 (89e1d0)
+[scheduler.c, tx            , 292] 29506: tx_pkt 12 (89e0e0)
+[scheduler.c, tx            , 292] 44103: tx_pkt 28 (89e4a0)
+[scheduler.c, tx            , 292] 54527: tx_pkt 20 (89e130)
+[scheduler.c, tx            , 292] 65138: tx_pkt 21 (89e180)
+[scheduler.c, tx            , 292] 76120: tx_pkt 24 (89e720)
+[scheduler.c, tx            , 292] 88073: tx_pkt 27 (89e360)
+[scheduler.c, tx            , 292] 100853: tx_pkt 2 (8a2038)
+[scheduler.c, tx            , 292] 114560: tx_pkt 13 (89e450)
+[scheduler.c, tx            , 292] 130809: tx_pkt 14 (89e040)
+[scheduler.c, tx            , 292] 131053: tx_pkt 15 (89e630)
+[scheduler.c, tx            , 292] 140669: tx_pkt 6 (89e770)
+[scheduler.c, tx            , 292] 149941: tx_pkt 16 (89e2c0)
+[scheduler.c, tx            , 292] 162406: tx_pkt 17 (89e680)
+[scheduler.c, tx            , 292] 171489: tx_pkt 18 (89e090)
+[scheduler.c, tx            , 292] 171876: tx_pkt 7 (89e6d0)
+[scheduler.c, tx            , 292] 185211: tx_pkt 8 (89e5e0)
+[scheduler.c, tx            , 292] 188665: tx_pkt 4 (8a2170)
+[scheduler.c, tx            , 292] 202780: tx_pkt 19 (89e3b0)
+[scheduler.c, tx            , 292] 206147: tx_pkt 5 (89e590)
+[scheduler.c, tx            , 292] 209558: tx_pkt 9 (89e7c0)
+[main.c     , main          ,  68] exit time: 224505
+[scheduler.c, dbg_print_flow, 482] [flow] (8a0f20) [192.168.1.1 2001 10.0.0.3 25] w: 2, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 0, arival_t: 0, tx_t: 3904, len: 3883 (8973a8)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 3, arival_t: 2, tx_t: 15995, len: 876 (8a2120)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 6, arival_t: 13, tx_t: 140669, len: 9272 (89e770)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 8, arival_t: 14, tx_t: 185211, len: 3454 (89e5e0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 4, max_delay = 185197, acmltd_delay = 345750, max_buff = 4, acmltd_buff = 345754
+[scheduler.c, dbg_print_flow, 482] [flow] (89df80) [192.168.1.1 1999 10.0.0.3 25] w: 2, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 1, arival_t: 0, tx_t: 0, len: 3658 (8a0fb8)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 4, arival_t: 7, tx_t: 188665, len: 14115 (8a2170)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 5, arival_t: 12, tx_t: 206147, len: 3411 (89e590)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 9, arival_t: 19, tx_t: 209558, len: 14946 (89e7c0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 4, max_delay = 209539, acmltd_delay = 604332, max_buff = 3, acmltd_buff = 604336
+[scheduler.c, dbg_print_flow, 482] [flow] (8a2088) [192.168.1.1 2001 10.0.0.3 21] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 2, arival_t: 1, tx_t: 100853, len: 13707 (8a2038)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 7, arival_t: 13, tx_t: 171876, len: 13335 (89e6d0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 2, max_delay = 171863, acmltd_delay = 272715, max_buff = 2, acmltd_buff = 272717
+[scheduler.c, dbg_print_flow, 482] [flow] (8904d0) [10.0.0.3 21 192.168.1.1 2001] w: 10, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 10, arival_t: 100, tx_t: 3658, len: 246 (89e270)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 11, arival_t: 100, tx_t: 11619, len: 4376 (89e400)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 12, arival_t: 100, tx_t: 29506, len: 14597 (89e0e0)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 13, arival_t: 100, tx_t: 114560, len: 16249 (89e450)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 14, arival_t: 100, tx_t: 130809, len: 244 (89e040)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 15, arival_t: 100, tx_t: 131053, len: 9616 (89e630)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 16, arival_t: 100, tx_t: 149941, len: 12465 (89e2c0)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 17, arival_t: 100, tx_t: 162406, len: 9083 (89e680)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 18, arival_t: 100, tx_t: 171489, len: 387 (89e090)
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 19, arival_t: 100, tx_t: 202780, len: 3367 (89e3b0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 10, max_delay = 202680, acmltd_delay = 1106821, max_buff = 10, acmltd_buff = 1106831
+[scheduler.c, dbg_print_flow, 482] [flow] (89ec20) [10.0.0.3 21 192.168.1.1 2005] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 20, arival_t: 100, tx_t: 54527, len: 10611 (89e130)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 54427, acmltd_delay = 54427, max_buff = 1, acmltd_buff = 54428
+[scheduler.c, dbg_print_flow, 482] [flow] (89ecb8) [10.0.0.3 21 192.168.1.1 2006] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 21, arival_t: 100, tx_t: 65138, len: 10982 (89e180)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 65038, acmltd_delay = 65038, max_buff = 1, acmltd_buff = 65039
+[scheduler.c, dbg_print_flow, 482] [flow] (89ed50) [10.0.0.3 21 192.168.1.1 2007] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 22, arival_t: 100, tx_t: 23085, len: 6421 (89e1d0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 22985, acmltd_delay = 22985, max_buff = 1, acmltd_buff = 22986
+[scheduler.c, dbg_print_flow, 482] [flow] (89ede8) [10.0.0.3 21 192.168.1.1 2008] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 23, arival_t: 100, tx_t: 19645, len: 3440 (89e4f0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 19545, acmltd_delay = 19545, max_buff = 1, acmltd_buff = 19546
+[scheduler.c, dbg_print_flow, 482] [flow] (89ee80) [10.0.0.3 21 192.168.1.1 2009] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 24, arival_t: 100, tx_t: 76120, len: 11953 (89e720)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 76020, acmltd_delay = 76020, max_buff = 1, acmltd_buff = 76021
+[scheduler.c, dbg_print_flow, 482] [flow] (89ef18) [10.0.0.3 21 192.168.1.1 20010] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 25, arival_t: 100, tx_t: 16871, len: 2774 (89e220)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 16771, acmltd_delay = 16771, max_buff = 1, acmltd_buff = 16772
+[scheduler.c, dbg_print_flow, 482] [flow] (8a50f0) [10.0.0.3 21 192.168.1.1 20011] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 26, arival_t: 100, tx_t: 7787, len: 935 (89e310)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 7687, acmltd_delay = 7687, max_buff = 1, acmltd_buff = 7688
+[scheduler.c, dbg_print_flow, 482] [flow] (8a5188) [10.0.0.3 21 192.168.1.1 20012] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 27, arival_t: 100, tx_t: 88073, len: 12780 (89e360)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 87973, acmltd_delay = 87973, max_buff = 1, acmltd_buff = 87974
+[scheduler.c, dbg_print_flow, 482] [flow] (8a5220) [10.0.0.3 21 192.168.1.1 20013] w: 4, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 28, arival_t: 100, tx_t: 44103, len: 10424 (89e4a0)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 44003, acmltd_delay = 44003, max_buff = 1, acmltd_buff = 44004
+[scheduler.c, dbg_print_flow, 482] [flow] (8a52b8) [10.0.0.3 21 192.168.1.1 20014] w: 10, pkts_in_q: 0
+[scheduler.c, dbg_print_flow, 494] 		  [pkt] id: 29, arival_t: 100, tx_t: 8722, len: 2897 (89e540)
+[scheduler.c, dbg_print_flow, 506] 		  [stats] num_pkt = 1, max_delay = 8622, acmltd_delay = 8622, max_buff = 1, acmltd_buff = 8623
+[tasks.c    , close_files   , 121] close_files() done
+[main.c     , main          ,  80] DBG_CLOSE
